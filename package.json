@@ -1,0 +1,50 @@
+{
+  "name": "@andystevensname/remark-poem-element",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "version": "1.0.0",
+  "description": "Remark plugin to transform fenced poem code blocks into <poem-element> custom elements with SSR support.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "remark",
+    "remark-plugin",
+    "markdown",
+    "mdast",
+    "poetry",
+    "poem-element",
+    "web-component",
+    "ssr"
+  ],
+  "author": "Andy Stevens",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andystevensname/remark-poem-element.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andystevensname/remark-poem-element/issues"
+  },
+  "homepage": "https://github.com/andystevensname/remark-poem-element#readme",
+  "peerDependencies": {
+    "poem-element": ">=1.0.0",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "poem-element": "^2.5.3",
+    "remark": "^15.0.1",
+    "unist-util-visit": "^5.1.0"
+  }
+}
