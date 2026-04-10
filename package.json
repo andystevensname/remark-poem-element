@@ -4,7 +4,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Remark plugin to transform fenced poem code blocks into <poem-element> custom elements with SSR support.",
   "type": "module",
   "main": "index.js",
